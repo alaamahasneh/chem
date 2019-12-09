@@ -30,6 +30,29 @@ header nav ul li{
   font-size: 20px;
     display: inline-block;
 }
+#Shope{
+  transition: 500ms;
+  position: absolute;
+  left: 5%;
+  top:10%;
+  z-index: +2;
+}
+.logo{
+  border:2px solid rgb(243, 156, 18);
+  border-radius:3px;
+  text-decoration:none; 
+  display:inline-flex; 
+  align-items:center;
+  align-content:center;
+   margin:20px; 
+   padding:0px 10px;
+   font-weight:900;
+  font-size:1.1em;
+  line-height:1;
+  box-sizing:border-box;
+  height:40px
+
+}
 
 header nav ul li:hover{
   cursor: grab;
